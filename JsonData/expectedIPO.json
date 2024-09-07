@@ -1,0 +1,45 @@
+[
+    {
+      "companyName": "Tech Innovations Inc.",
+      "sector": "Technology",
+      "icon": "tech_innovations.png",
+      "issueSize": "1.2 Billion USD",
+      "statement": "Pioneering the next generation of tech solutions."
+    },
+    {
+      "companyName": "PharmaGenix Ltd.",
+      "sector": "Pharma",
+      "icon": "pharmagenix.png",
+      "issueSize": "800 Million USD",
+      "statement": "Advancing healthcare with breakthrough therapies."
+    },
+    {
+      "companyName": "RealEstate Plus",
+      "sector": "Real Estate",
+      "icon": "realestate_plus.png",
+      "issueSize": "500 Million USD",
+      "statement": "Transforming urban landscapes with innovative properties."
+    },
+    {
+      "companyName": "GreenEnergy Solutions",
+      "sector": "Energy",
+      "icon": "greenenergy_solutions.png",
+      "issueSize": "750 Million USD",
+      "statement": "Leading the charge towards sustainable energy."
+    },
+    {
+      "companyName": "FinTech Masters",
+      "sector": "Finance",
+      "icon": "fintech_masters.png",
+      "issueSize": "1 Billion USD",
+      "statement": "Revolutionizing financial services with cutting-edge technology."
+    },
+    {
+      "companyName": "HealthCare Dynamics",
+      "sector": "Healthcare",
+      "icon": "healthcare_dynamics.png",
+      "issueSize": "950 Million USD",
+      "statement": "Delivering innovative solutions for modern healthcare challenges."
+    }
+  ]
+  
