@@ -8,7 +8,7 @@ const Stack = createNativeStackNavigator();
 const MyComponent = () => {
   return (
     <NavigationContainer>
-      <Stack.Navigator>
+      <Stack.Navigator initialRouteName='Home'>
         <Stack.Screen name="Login" component={LoginScreen}   options={{ animation: 'slide_from_right', headerShown: false }} />
         <Stack.Screen name="Home" component={HomeScreen} options={{ animation: 'slide_from_right',headerShown: false }}/>
       </Stack.Navigator>
