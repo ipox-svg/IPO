@@ -9,7 +9,7 @@ import {
   TouchableOpacity,
 } from 'react-native';
 import Checkbox from 'expo-checkbox';
-import HomeScreen from './HomeScreen';
+
 
 // create a component
 const LoginScreen = ({navigation}) => {
