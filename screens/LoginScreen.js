@@ -9,9 +9,10 @@ import {
   TouchableOpacity,
 } from 'react-native';
 import Checkbox from 'expo-checkbox';
+import HomeScreen from './HomeScreen';
 
 // create a component
-const LoginScreen = () => {
+const LoginScreen = ({navigation}) => {
     const [isChecked, setChecked] = useState(false);
     return (
         <View style={styles.container}>
@@ -60,7 +61,7 @@ const LoginScreen = () => {
               
     
               <View style={{marginTop:60,}}>
-              <TouchableOpacity style={styles.button}>
+              <TouchableOpacity style={styles.button} onPress={()=>navigation.navigate("Home")}>
                 <Text style={styles.buttonText}>Get Code</Text>
               </TouchableOpacity>
               </View>
