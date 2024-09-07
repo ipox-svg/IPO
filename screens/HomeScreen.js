@@ -38,7 +38,7 @@ const HomeScreen = () => {
               return <Icon name={iconName} size={20} color={"blue"} />;
 
             },
-            tabBarActiveTintColor: 'tomato',
+            tabBarActiveTintColor: 'black',
             tabBarInactiveTintColor: 'gray',
             tabBarStyle: {
               backgroundColor: 'white',
@@ -48,10 +48,7 @@ const HomeScreen = () => {
               fontSize: 15,
             },
           })}
-           
-          
-               
-        
+                     
           >
                     <Tab.Screen name="Deals" component={DealsScreen} options={{headerShown: false }}/>
                     <Tab.Screen name="Tutorials" component={TutorialScreen} options={{headerShown: false }} />
